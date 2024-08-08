@@ -14,4 +14,4 @@ def portfolio():
     return render_template('index.html')
 
 if __name__ == '__main__':
-    app.run(debug=True, port=6001)
+    app.run(debug=True, port=6000)
