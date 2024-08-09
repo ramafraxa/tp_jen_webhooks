@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/home')
 def home():
-    return "RAMAFRAXA"
+    return render_template('index.html')
 
 # Endpoint pour la page de portfolio
 @app.route('/portfolio')
